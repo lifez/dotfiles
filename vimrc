@@ -57,7 +57,7 @@ set shiftround
 set expandtab
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·,nbsp:·
+
 
 " Use one space, not two, after punctuation.
 set nojoinspaces
@@ -150,7 +150,10 @@ set complete+=kspell
 " Always use vertical diffs
 set diffopt+=vertical
 
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
+
+set hlsearch
