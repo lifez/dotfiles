@@ -15,5 +15,19 @@ alias s="rspec"
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
+# Docker
+alias dsa='docker stop $(docker ps -aq)'
+alias dcud='docker-compose up -d db'
+alias dcup='docker-compose up -d postgres'
+
+# Simplesat
+alias gw='cd /Users/phawin/pronto/simplesat-microservices/service-gateway/service_gateway'
+alias su='cd /Users/phawin/pronto/simplesat-microservices/service-survey/service_survey'
+alias cw='cd /Users/phawin/pronto/simplesat-microservices/service-connectwise/service_connectwise'
+alias zd='cd /Users/phawin/pronto/simplesat-microservices/service-zendesk/service_zendesk'
+alias em='cd /Users/phawin/pronto/simplesat-microservices/service-email/service_email'
+alias cu='cd /Users/phawin/pronto/simplesat-microservices/service-customer/service_customer'
+alias bi='cd /Users/phawin/pronto/simplesat-microservices/service-billing/service_billing'
+
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local

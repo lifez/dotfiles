@@ -27,7 +27,7 @@
 [include]
   path = ~/.gitconfig.local
 [user]
-	name = lifez
+	name = Phawin
 	email = lifez999@gmail.com
 [pull]
 	rebase = true
